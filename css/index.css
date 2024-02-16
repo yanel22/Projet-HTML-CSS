@@ -1,0 +1,194 @@
+/* Reset some default browser styles */
+body,
+h1,
+h2,
+h3,
+ul,
+li,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set a background color for the entire page */
+body {
+    background-color: #f8f8f8;
+    font-family: Arial, sans-serif;
+}
+
+/* Style the navigation bar */
+nav {
+    
+    background-color: #333;
+    color: #6ca1cc;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#home img{
+    
+    width: 100px;
+    height: 100px;
+
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+/* Style the main section */
+#main {
+    background-color: #f8f8f8;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    
+    align-items: center; /* Center content vertically */
+    padding: 100px;
+}
+
+
+
+
+#main h3 {
+    font-family: 'Outfit', sans-serif;
+    color: #333;
+    max-width: 500px;
+    margin: 0 auto; /* Center horizontally */
+}
+
+
+
+
+#main img {
+    width: 600px;
+    height: 600px;
+   
+}
+
+/* Style the 'eat' section */
+#eat {
+    background-color: #f8f8f8;
+    padding: 20px;
+    text-align: center;
+     /* Center text within the container */
+}
+
+#eat div {
+    
+    display: flex;
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    flex-wrap: wrap;
+}
+
+#eat div > div {
+    
+    text-align: center;
+    margin: 0 20px 20px 20px; /* Add margin to the inner div for spacing */
+    flex: 0 0 30%; /* Set a flex basis for responsiveness */
+}
+
+#eat img {
+    width: 200px;
+    height: 200px;
+    margin: 0 20px; /* Add margin to the image for spacing */
+}
+
+#eat h3 {
+    color: #333;
+    margin: 10px ;
+}
+
+#eat a {
+    text-decoration: none;
+    color: #333;
+    background-color:blueviolet;
+    padding: 10px 20px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 10px; /* Adjust the top margin for spacing */
+}
+
+
+/* Style the footer */
+/* Footer styles */
+footer {
+    background-color: #333;
+    color: white;
+    
+}
+
+footer div {
+   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+footer div img{
+    padding: 10px;
+}
+footer div h5 {
+    margin-bottom: 10px;
+}
+
+footer div ul {
+    list-style: none;
+    display: flex;
+}
+
+footer div ul li {
+    margin-right: 20px;
+    margin-bottom: 5px;
+}
+
+footer div a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Style for the logo in the footer */
+footer div img {
+    height: 100px;
+    width: 100px;
+    ;
+}
+
+/* Style for the social media icons (if using font icons) */
+footer div ul li i {
+    /* Add styles for the icon, such as font-size and color */
+    font-size: 20px;
+    color: #ffffff;
+    margin-right: 10px; /* Add spacing between icons */
+}
+
+/* Responsive design - adjust styles for smaller screens */
+@media screen and (max-width: 768px) {
+    #main,
+    #eat div {
+        flex-direction: column;
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+        text-align: center; /* Center the text within the list item */
+    }
+}

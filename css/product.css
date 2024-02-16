@@ -1,0 +1,78 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+  
+  h1 {
+    font-size: 36px;
+    text-align: center;
+    margin-top: 50px;
+    color: #333;
+  }
+  
+  h2 {
+    font-size: 20px;
+    color: #666;
+    text-align: center;
+    margin: 10px 0;
+  }
+  
+  #Product {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
+  }
+  
+  #Product > div {
+    background-color: #fff;
+    max-width: 300px;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    text-align: center;
+    
+  }
+  
+  #Product h2 {
+    font-size: 18px;
+    margin-top: 10px;
+    color: #333;
+  }
+  
+  #Product p {
+    font-size: 14px;
+    color: #666;
+    margin-top: 10px;
+  }
+  
+  #Product img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    border-radius: 5px;
+  }
+  
+  #Product button {
+    background-color: blueviolet;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+.card{
+  box-shadow: 0 4px 8px 0 rgb(0,0,0,0);
+  transition: 0.3s;
+  margin-top: 20px;
+}
+
+.card:hover{
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  transform: scale(1.2);
+}

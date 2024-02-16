@@ -1,0 +1,24 @@
+#aboutus {
+    background-color: #f8f8f8;
+    padding: 50px 20px; /* Add padding for spacing */
+    text-align: center; /* Center text within the container */
+}
+
+#aboutus h2 {
+    color: #333;
+}
+
+#aboutus u i b {
+    color: blueviolet;
+}
+
+#aboutus p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #333;
+}
+
+#aboutus div {
+    max-width: 800px;
+    margin: 0 auto; /* Center the content horizontally */
+}
